@@ -4,89 +4,86 @@ Developed an end-to-end Sales &amp; Customer Insights Dashboard using SQL (for d
 # 📊 Sales & Customer Insights Dashboard (SQL + Power BI)
 
 ## 📌 Project Overview
-This project demonstrates an **end-to-end Business Intelligence (BI) solution** using **SQL for data extraction & cleaning** and **Power BI for interactive dashboard creation**.  
-The goal is to analyze **sales performance, customer behavior, and product insights** to support data-driven decision-making.
+An **end-to-end Business Intelligence solution** built with **SQL** for data extraction & transformation and **Power BI** for interactive visualization.  
+The project analyzes **sales performance, customer behavior, and product insights** to support **data-driven business decisions**.
 
 ---
 
 ## ⚙️ Tools & Technologies
-- **SQL Server** → Data extraction, cleaning, and transformation
-- **Power BI** → Interactive dashboard & data visualization
-- **Excel/CSV** → Data source (sample dataset)
+- **SQL Server** → Data cleaning, transformation, and KPI calculation  
+- **Power BI** → Interactive dashboards & visualizations  
+- **Excel/CSV** → Source of raw sales & customer data  
 
 ---
-🗄️ SQL Analysis
-🔹 Data Exploration
 
-Listed all tables and columns in the database.
+## 🗄️ SQL Data Analysis
 
-Previewed first 100 rows of key tables (fact_sales, dim_products, dim_customers, dim_date).
+### 🔍 Data Exploration
+- Explored all tables & schemas.  
+- Previewed data from:  
+  - `fact_sales`  
+  - `dim_products`  
+  - `dim_customers`  
+  - `dim_date`  
 
-🔹 Descriptive Analytics
+### 📈 Descriptive Analytics
+- Total KPIs: Customers, Products, Orders, Sales Revenue, Quantity Sold  
+- Averages: Sales Price, Order Value  
 
-Total number of customers, products, and orders.
+### 👥 Customer Insights
+- Distribution by **Country & Gender**  
+- Top 10 Customers by Revenue  
+- Customer contribution analysis (Pareto 80/20 principle)  
 
-Total sales amount and quantity sold.
+### 📦 Product Insights
+- Top 10 Best-Selling Products  
+- Low-Performing Products  
+- Revenue by Category & Subcategory  
 
-Average sales price and average order value.
+### 💰 Financial Insights
+- Monthly Sales Trends  
+- Year-over-Year Revenue Comparison  
+- Contribution of Top 5 Customers vs. Others  
 
-🔹 Customer Insights
+---
 
-Customer distribution by country and gender.
+## 📊 Power BI Dashboard
 
-Top 10 customers by revenue.
+The interactive dashboard contains three main pages:  
+1. **Sales Overview** → KPIs, revenue trends, orders  
+2. **Customer Analysis** → Demographics, top customers, retention insights  
+3. **Product Analysis** → Best-selling products, category performance  
 
-🔹 Product Insights
+📸 Dashboard Screenshots:
 
-Top 10 best-selling products by sales amount.
+![Dashboard 1](https://github.com/user-attachments/assets/7ae8a8cf-a2a6-490e-9642-51731ded206e)  
+![Dashboard 2](https://github.com/user-attachments/assets/3628f3c4-5bc4-497d-bb37-9f758444d5f4)  
+![Dashboard 3](https://github.com/user-attachments/assets/af24bb40-2f40-41f7-b177-e62a2b4abebd)  
+![Dashboard 4](https://github.com/user-attachments/assets/9f3bf8d6-b9b6-4ee6-b8a8-0351fc4ef7a3)  
 
-Lowest performing products.
+---
 
-Revenue by product category and subcategory.
+## 🔑 Key Insights
+- A small percentage of top customers contributed to the majority of revenue (**Pareto principle**).  
+- **Electronics & Accessories** were the main drivers of sales.  
+- Several low-performing products were identified for inventory optimization.  
+- Clear seasonality & demand spikes were highlighted in monthly sales trends.  
 
-🔹 Financial Insights
+---
 
-Monthly sales trends.
+## 🚀 Future Enhancements
+- Integrate **real-time pipelines** for live dashboards.  
+- Add **predictive analytics** (Python/ML) for sales forecasting.  
+- Perform **Customer Segmentation (RFM analysis)** for targeted marketing.  
 
-Year-over-year revenue comparison.
+---
 
-Contribution of top 5 customers vs. others
+## ✨ Conclusion
+This project demonstrates how **SQL & Power BI** can transform raw data into **actionable business insights**.  
+It highlights skills in:  
+✔️ SQL querying & data transformation  
+✔️ BI dashboard development  
+✔️ Data storytelling for decision-making  
 
-📊 Power BI Dashboard
-
-An interactive dashboard was built to visualize the key metrics and insights derived from SQL queries.
-The dashboard includes:
-
-Sales Overview Page → KPIs, revenue trends, and total orders.
-
-Customer Analysis Page → Demographics, top customers, retention insights.
-
-Product Analysis Page → Best-selling products, category-level performance
-
-<img width="1442" height="809" alt="Screenshot 2025-08-29 142407" src="https://github.com/user-attachments/assets/7ae8a8cf-a2a6-490e-9642-51731ded206e" />
-
-<img width="1440" height="803" alt="Screenshot 2025-08-29 142416" src="https://github.com/user-attachments/assets/3628f3c4-5bc4-497d-bb37-9f758444d5f4" />
-
-<img width="1437" height="811" alt="Screenshot 2025-08-29 142425" src="https://github.com/user-attachments/assets/af24bb40-2f40-41f7-b177-e62a2b4abebd" />
-
-<img width="1445" height="816" alt="Screenshot 2025-08-29 142433" src="https://github.com/user-attachments/assets/9f3bf8d6-b9b6-4ee6-b8a8-0351fc4ef7a3" />
-
-🔍 Key Insights & Outcomes
-
-A small percentage of top customers contributed to the majority of revenue (Pareto principle).
-Product categories like Electronics and Accessories were the main drivers of sales.
-Certain products were identified as low performers, enabling businesses to optimize inventory.
-Monthly sales trends highlighted seasonality and demand spikes
-
-
-🚀 Future Improvements
-Integrate real-time data pipelines for live dashboards.
-Apply predictive analytics with Python/ML to forecast sales.
-Add customer segmentation (RFM analysis) to improve marketing strategies
-
-✨ Conclusion
-
-This project demonstrates how SQL and Power BI can work together to transform raw data into clear, actionable business intelligence.
-It highlights technical skills in data querying, visualization, and storytelling, making it a valuable portfolio project for Data Analytics and Business Intelligence roles
-
+📌 A strong portfolio project for **Data Analytics & Business Intelligence roles**.
 
